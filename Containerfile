@@ -31,4 +31,6 @@ RUN addgroup -g 1000 auditor \
 USER auditor
 WORKDIR /home/auditor
 
+RUN wget https://github.com/hax0rgb/InsecureShop/releases/download/v1.0/InsecureShop.apk
+
 CMD ["/bin/bash"]
